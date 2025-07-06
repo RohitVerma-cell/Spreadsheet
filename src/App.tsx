@@ -1,8 +1,9 @@
 import './App.css'
-import SpreadsheetLayout from './components/spreadsheet'
+import SpreadsheetLayout from './components/spreadsheet.tsx'
 
 
 function App() {
+
   return (
     <SpreadsheetLayout/>
   )

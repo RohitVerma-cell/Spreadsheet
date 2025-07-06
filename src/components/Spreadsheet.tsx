@@ -81,7 +81,7 @@ const getStatusBadge = (status: string) => {
   }
 };
 
-const Spreadsheet = () => {
+const spreadsheet = () => {
   const bottomRef = useRef<HTMLDivElement | null>(null);
 
   useEffect(() => {
@@ -137,7 +137,7 @@ const Spreadsheet = () => {
   );
 };
 
-export default Spreadsheet;
+export default spreadsheet;
 
 
 
